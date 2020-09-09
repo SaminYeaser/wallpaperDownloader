@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:gallery/data/apikey.dart';
+import 'package:gallery/controller/apikey.dart';
 import 'package:gallery/model/wallpaperModel.dart';
 import 'package:gallery/widgets/appBar.dart';
 import 'package:gallery/widgets/widgets.dart';

@@ -3,7 +3,7 @@ import 'package:gallery/views/category.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:gallery/data/data.dart';
+import 'package:gallery/controller/data.dart';
 import 'package:gallery/model/category_model.dart';
 import 'package:gallery/model/wallpaperModel.dart';
 import 'package:gallery/views/image_view.dart';
@@ -11,7 +11,7 @@ import 'package:gallery/views/search.dart';
 import 'package:gallery/widgets/appBar.dart';
 import 'package:gallery/widgets/widgets.dart';
 import 'package:http/http.dart' as http;
-import 'package:gallery/data/apikey.dart';
+import 'package:gallery/controller/apikey.dart';
 
 
 class Home extends StatefulWidget {
