@@ -13,6 +13,11 @@ import 'package:gallery/widgets/widgets.dart';
 import 'package:http/http.dart' as http;
 import 'package:gallery/controller/apikey.dart';
 
+class textEditingCOntrollerValidate{
+  String validate(String value){
+    return value.isEmpty ? 'The search bar cant be empty': null;
+  }
+}
 
 class Home extends StatefulWidget {
 

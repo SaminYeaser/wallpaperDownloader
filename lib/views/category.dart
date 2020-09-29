@@ -9,6 +9,7 @@ import 'package:http/http.dart' as http;
 class Categories extends StatefulWidget {
   final String categoryName;
   Categories({this.categoryName});
+
   @override
   _CategoriesState createState() => _CategoriesState();
 }
